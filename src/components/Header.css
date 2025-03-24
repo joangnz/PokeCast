@@ -1,6 +1,8 @@
 #header {
-    padding: 10px 30px;
     width: 100%;
+    padding: 10px 30px;
+    border-bottom: 1px solid #2c2c2c;
+    margin-bottom: 20px;
 
     nav {
         min-width: 25%;
