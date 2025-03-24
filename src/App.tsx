@@ -13,7 +13,6 @@ import Watcher from "./components/Watcher";
 import './App.css'
 
 function App() {
-
   return (
     <>
       <Router>

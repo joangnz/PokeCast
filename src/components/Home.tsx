@@ -1,5 +1,4 @@
-import '../assets/episodes/latest.mp3';
-
+import latestEpisode from '/episodes/latest.mp3'
 import './Home.css';
 
 function Home() {
@@ -12,7 +11,7 @@ function Home() {
 
             <section id="last-ep" className="flex justify-between">
                 <audio controls>
-                    <source src="" type="audio/mpeg"></source>
+                    <source src={latestEpisode} type="audio/mpeg" />
                     Your browser does not support audio.
                 </audio>
                 <figcaption>

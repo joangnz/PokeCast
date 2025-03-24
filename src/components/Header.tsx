@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Podcast, Rss } from "lucide-react";
+import { Podcast } from "lucide-react";
 
 import './Header.css';
 
@@ -21,12 +21,6 @@ function Header() {
                     Pokédex
                 </a>
             </nav>
-            <div className="flex flex-1 items-center justify-end space-x-4">
-                <button className="flex justify-between">
-                    <Rss className="mr-2 h-4 w-4" />
-                    Subscribe
-                </button>
-            </div>
         </header>
     );
 }
