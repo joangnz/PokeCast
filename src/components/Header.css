@@ -1,0 +1,12 @@
+#header {
+    padding: 10px 30px;
+    width: 100%;
+
+    nav {
+        min-width: 25%;
+
+        a {
+            margin: min(10px, 5%);
+        }
+    }
+}
