@@ -11,7 +11,7 @@ function Header() {
                     <Podcast className="h-6 w-6 text-red-500" />
                     <span className="inline-block font-bold">PokéCast</span>
                 </Link>
-                <Link to="/" className="flex items-center text-sm font-medium text-primary">
+                <Link to="/episodes" className="flex items-center text-sm font-medium text-primary">
                     Episodes
                 </Link>
                 <Link to="/about" className="flex items-center text-sm font-medium text-muted-foreground">

@@ -18,7 +18,15 @@ function Footer() {
                     </Link>
                 </div>
                 <p className="text-center text-sm leading-loose text-muted-foreground md:text-left">
-                    © 2025 PokéCast. All rights reserved.
+                    © 2025 PokéCast. Content is licensed under a{' '}
+                    <a
+                        href="https://creativecommons.org/licenses/by/4.0/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-primary hover:underline"
+                    >
+                        Creative Commons Attribution 4.0 International License
+                    </a>.
                 </p>
             </div>
         </footer>

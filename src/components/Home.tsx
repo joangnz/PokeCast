@@ -13,10 +13,10 @@ function Home() {
             <section id="last-ep" className="flex justify-between">
                 <audio controls>
                     <source src="" type="audio/mpeg"></source>
-                    Tu navegador no soporta el audio
+                    Your browser does not support audio.
                 </audio>
                 <figcaption>
-                    <h2>Último Episodio</h2>
+                    <h2>Last Episode</h2>
                 </figcaption>
             </section>
         </main>
