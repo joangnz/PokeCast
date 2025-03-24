@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 
+import './Episodes.css';
+
 function Episodes() {
     const episodes = [
         { id: "latest", title: "Latest Episode" },
@@ -8,14 +10,14 @@ function Episodes() {
     ];
 
     return (
-        <div className="episodes-container text-center p-6">
+        <div id="episodes" className="text-center p-6">
             <h1 className="text-4xl font-bold mb-4">Episodes</h1>
-            <ul className="episode-list">
+            <ul className="ep-list no-bullet flex">
                 {episodes.map((episode) => (
-                    <li key={episode.id} className="mb-2">
+                    <li key={episode.id} className="ep-card mb-2">
                         <Link
                             to={`/watcher/${episode.id}`}
-                            className="text-primary hover:underline"
+                            className="text-primary"
                         >
                             {episode.title}
                         </Link>
